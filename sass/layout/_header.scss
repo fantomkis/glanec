@@ -1,0 +1,196 @@
+.line {
+
+    /* color4 */
+
+    border-bottom: 1px solid #b0cedd;
+
+}
+
+.header__up {
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.header__up {
+    display: flex;
+}
+
+.header__social {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.social__text {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;
+    /* identical to box height, or 22px */
+
+
+    /* color4 */
+
+    color: #1E2E36;
+    margin-right: 5px;
+}
+
+.social__list {
+    display: flex;
+}
+
+.social__item:not(:last-child) {
+    margin-right: 5px;
+}
+
+.social__link {
+    width: 40px;
+    height: 40px;
+}
+
+.header__tel {
+    display: flex;
+    align-items: stretch;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;
+    /* identical to box height, or 22px */
+
+    text-transform: uppercase;
+
+    /* color4 */
+
+    color: #1E2E36;
+}
+
+.header__chevron-icon {
+    margin-left: 5px;
+}
+
+.header__tel__icon {
+    margin-right: 5px;
+}
+
+.header__nav {
+    margin-left: auto;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__link {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;
+    /* identical to box height, or 22px */
+
+    text-transform: uppercase;
+
+    /* color4 */
+
+    color: #1E2E36;
+
+}
+
+.nav__item:not(:last-child) {
+    margin-right: 15px;
+}
+
+.header_aftar {
+    display: flex;
+    padding: 15px;
+}
+
+.header__categotis {
+    display: flex;
+    align-items: center;
+    margin-right: 115px;
+}
+
+.header__categotis__link {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;
+    /* identical to box height, or 22px */
+
+    text-transform: uppercase;
+
+    /* color4 */
+
+    color: #1E2E36;
+    display: flex;
+}
+
+.header__categotis__list:not(:last-child) {
+    margin-right: 15px;
+}
+
+
+.header__categotis__link::after {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('../../imgs/icons/chevron-left.svg');
+    margin-left: 5px;
+    background-repeat: no-repeat;
+}
+
+.categori__btn {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.basket {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;
+    /* identical to box height, or 22px */
+
+    text-transform: uppercase;
+
+    /* color4 */
+
+    color: #1E2E36;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.basket__icon {
+    margin-right: 5px;
+}
+
+.btn {
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 125%;
+    /* identical to box height, or 22px */
+
+    text-transform: uppercase;
+
+    /* greyscale/000 */
+
+    color: #FFFFFF;
+    width: 278px;
+    height: 51px;
+    padding: 14px 46px;
+    background: #44C697;
+    border-radius: 3px;
+
+}

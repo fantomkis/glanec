@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Furniture</title>
+</head>
+
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 306,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+
+
+            keyboard: true,
+        });
+        // const swiper = new Swiper('.swiper', {
+        // // Optional parameters
+        // direction: 'vertical',
+        // loop: true,
+
+        // // If we need pagination
+        // pagination: {
+        // el: '.swiper-pagination',
+        // },
+
+        // // Navigation arrows
+        // navigation: {
+        // nextEl: '.swiper-button-next',
+        // prevEl: '.swiper-button-prev',
+        // },
+
+        // // And if we need scrollbar
+        // scrollbar: {
+        // el: '.swiper-scrollbar',
+        // },
+        // });
+    </script>
+    <header class="header">
+        <div class="line">
+            <div class="header__up  ">
+                <div class="header__social ">
+                    <p class="social__text">Ми в соціальних мережах:</p>
+                    <ul class="social__list">
+                        <li class="social__item"><a href="#" class="social__link"><svg width="30" height="30">
+                                    <use href="./imgs/icons/sprit.svg#icon-Telegram"></use>
+                                </svg></a></li>
+                        <li class="social__item"><a href="#" class="social__link"><svg width="30" height="30">
+                                    <use href="./imgs/icons/sprit.svg#icon-Facebook"></use>
+                                </svg></a></li>
+
+                        <li class="social__item"><a href="#" class="social__link"><svg width="30" height="30">
+                                    <use href="./imgs/icons/sprit.svg#icon-Instagram"></use>
+                                </svg></a></li>
+                    </ul>
+                </div>
+                <a href="tel:(099) 111 22 33" class="header__tel"><svg class="header__tel__icon" width="20" height="20">
+                        <use href="./imgs/icons/sprit.svg#icon-mobil"></use>
+                    </svg>(099) 111 22 33 <svg class="header__chevron-icon" width="24" height="24">
+                        <use href="./imgs/icons/sprit.svg#icon-chevron-right"></use>
+                    </svg></a>
+                <nav class="header__nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="" class="nav__link">Головна</a></li>
+                        <li class="nav__item"><a href="" class="nav__link">АкцІї</a></li>
+                        <li class="nav__item">
+                            <a href="" class="nav__link">Доставка та оплата</a>
+                        </li>
+                        <li class="nav__item"><a href="" class="nav__link">про нас</a></li>
+                        <li class="nav__item"><a href="" class="nav__link">контакти</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="header_aftar ">
+            <ul class="header__categotis">
+                <li class="header__categotis__list"><a href="" class="header__categotis__link">Дивани</a></li>
+                <li class="header__categotis__list"><a href="" class="header__categotis__link">ліжка</a></li>
+                <li class="header__categotis__list"><a href="" class="header__categotis__link">Крісла</a></li>
+                <li class="header__categotis__list"><a href="" class="header__categotis__link">комоди</a></li>
+                <li class="header__categotis__list"><a href="" class="header__categotis__link">шафи</a></li>
+                <li class="header__categotis__list"><a href="" class="header__categotis__link">Кухня</a></li>
+            </ul>
+            <img src="./imgs/Frame.svg" height="75" alt="logo">
+            <div class="categori__btn">
+                <a href="" class="basket"> <svg class="basket__icon" width="30" height="30">
+                        <use href="./imgs/icons/sprit.svg#icon-shopping-cart"></use>
+                    </svg> Кошик</a>
+                <a href="#question" class="btn">Замовити дзвінок</a>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="swiper mySwiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+
+
+                    <!-- Slides -->
+                    <div class="swiper-slide  " lazy="true"><img loading="lazy" src="./imgs/hero/hero.jpg" alt=""></div>
+                    <div class="swiper-slide"><img loading="lazy" src="./imgs/abaut/1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img loading="lazy" src="./imgs/question/1.jpg" alt=""></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+
+                <!-- If we need navigation buttons -->
+
+
+                <!-- If we need scrollbar -->
+
+            </div>
+
+            <div class="hero__info">
+                <h1 class="hero__info__title">Новинка!</h1>
+                <h2 class="hero__info__cat">Ліжко Ornella</h2>
+                <p class="hero__info__text">Це новий рівень комфортного сну</p>
+                <button class="hero__info__btn" type="button">Детальніше</button>
+
+            </div>
+
+        </section>
+        <section class="benefits"></section>
+        <section class="categori"></section>
+        <section class="about"></section>
+        <section class="question" id="question"></section>
+    </main>
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 306,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+
+
+            keyboard: true,
+        });
+        // const swiper = new Swiper('.swiper', {
+        // // Optional parameters
+        // direction: 'vertical',
+        // loop: true,
+
+        // // If we need pagination
+        // pagination: {
+        // el: '.swiper-pagination',
+        // },
+
+        // // Navigation arrows
+        // navigation: {
+        // nextEl: '.swiper-button-next',
+        // prevEl: '.swiper-button-prev',
+        // },
+
+        // // And if we need scrollbar
+        // scrollbar: {
+        // el: '.swiper-scrollbar',
+        // },
+        // });
+    </script>
+</body>
+
+</html>
